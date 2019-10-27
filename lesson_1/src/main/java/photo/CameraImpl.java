@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-@Component("camera")
-@Scope("prototype")
+//@Component("camera")
+//@Scope("prototype")
 public class CameraImpl implements Camera {
 
     @Autowired
